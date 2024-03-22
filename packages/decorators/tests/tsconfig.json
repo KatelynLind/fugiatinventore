@@ -1,0 +1,10 @@
+{
+	"extends": "../../ts-config/extra-strict-without-decorators.json",
+	"compilerOptions": {
+		"rootDir": ".",
+		"outDir": "../test-dist",
+		"tsBuildInfoFile": "../test-dist/.tsbuildinfo"
+	},
+	"include": [".", "../src/**/*"],
+	"references": [{ "path": "../src" }]
+}
